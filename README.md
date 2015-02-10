@@ -7,3 +7,5 @@ docker push 192.168.1.36:5000/daocloud/hello
 
 # Run Container
 docker run -d -p 80:80 192.168.1.36:5000/daocloud/hello
+
+# That's it!
