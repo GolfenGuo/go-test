@@ -1,7 +1,7 @@
-Image: mischief/docker-golang
-Env:
+image: go1.2
+env:
   - GOPATH=/var/cache/drone
-Script:
+script:
   - go build
   - go test -v
 publish:
