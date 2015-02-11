@@ -7,5 +7,5 @@ script:
 publish:
   docker:
   	docker_host: tcp://10.3.1.12:2375
-  	ImageName: 10.3.1.2:5000/drone-test
+  	image_name: 10.3.1.2:5000/drone-test
   	keep_build: true
