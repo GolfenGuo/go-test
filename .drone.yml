@@ -7,14 +7,14 @@ script:
 publish:
   docker:
     docker_file:
-  	docker_host: tcp://10.3.1.12:2375
-  	docker_version:
-  	registry_login_url:
-  	image_name: 10.3.1.2:5000/drone-test
-  	registry_login:
-  	username:
-  	password:
-  	email:
-  	keep_build: true
-  	tag:
-  	tags:
+    docker_host: tcp://10.3.1.12:2375
+    docker_version:
+    registry_login_url:
+    image_name: 10.3.1.2:5000/drone-test
+    registry_login:
+    username:
+    password:
+    email:
+    keep_build: true
+    tag:
+    tags:
