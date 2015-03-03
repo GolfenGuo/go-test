@@ -1,4 +1,4 @@
-image: daocloud/docker
+image: jpetazzo/dind
 env:
   - GOPATH=/var/cache/drone
 script:
@@ -6,7 +6,6 @@ script:
 #  - go test -v
 publish:
   docker:
-    docker_host: unix:///var/run/docker.sock
     image_name: 192.168.1.36:5000/drone-test
     keep_build: true
     tag: v1.0
